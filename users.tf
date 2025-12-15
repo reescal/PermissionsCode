@@ -38,7 +38,7 @@ locals {
     }
     prod = {
       "Billing Console" = {
-        read-only = ["alice"]
+        read-only = ["alice", "Brian Ortega"]
         admin     = ["olivia"]
       }
       "Analytics Hub" = {
